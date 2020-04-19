@@ -24,7 +24,7 @@ function askForName() {
 function placeOfGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN); // <h4></h4>
-  greeting.innerText = `Hello ${text}`;
+  greeting.innerText = `Hello, ${text}.`;
 }
 
 function loadName() {
